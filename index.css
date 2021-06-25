@@ -1,0 +1,91 @@
+body{
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size : cover;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+h1{
+    margin-top: 150px;
+    font-weight: 600;
+    position: relative;
+    text-align-last: center;
+    font-size: 35px;
+    line-height: 50px;
+    color: white;
+    box-shadow:
+    inset 0 0 0 1px rgba(143, 78, 3, 0.4),
+    inset 0 0 5px rgba(216,132,35,0.4),
+    inset 0px 0 30px rgb(255, 255, 255);
+    border-radius: 45px 45px 45px 45px;
+    border-style: outset;
+}
+#id2{
+    box-shadow:
+    inset 0 0 0 1px rgba(255, 217, 0, 0.4),
+    inset 0 0 5px rgba(255, 156, 42, 0.4),
+    inset 0px 0 30px black;
+    border-radius: 0 35px 0 35px;
+    padding: 3px;
+    margin: 0 auto;
+    overflow: inherit;
+    height: wrap-content;
+    width: cover;
+    block-size: wrap-content;
+    margin-left: 0;
+    overflow-y: hidden;    
+}
+#text{
+    width: auto;
+    color: rgb(36, 23, 4);
+    line-height: 28px;
+    vertical-align: middle;
+    background-color: rgb(211, 206, 175);
+}
+#button{
+    line-height: 28px;
+    
+    background-color: #33ff00;
+  border: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 5px 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 3px 2px;
+  cursor:pointer;
+}
+#command{
+   padding-left: 20px;
+   font-size: 18px;
+   margin-top: 5px;
+   text-align: justify;
+}
+#command ul{
+    list-style: none;
+}
+#command li,th,td{
+    padding-left: 25px;
+    padding-right: 45px;
+    padding-top: 7px;
+    text-align: left;
+}
+#id3{
+    margin-top: 20px;
+    padding:10px;
+    
+}
+#para{
+    color: white;
+    display: inline-block;
+    font-size: 19px;
+}
+#id4{
+    margin-top: 8px;
+    padding: 10px;
+    margin-left: auto;
+    color: white;
+    font-size: 19px;
+    
+}
